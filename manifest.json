@@ -1,0 +1,16 @@
+{
+  "name": "Click to Pause for Twitch",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "Click the Twitch video to pause.",
+  "author": "Sam Kauffman (SamVK)",
+  "icons": {
+      "16": "img/icon/icon-16.png",
+      "48": "img/icon/icon-48.png",
+      "128": "img/icon/icon-128.png"
+  },
+  "content_scripts": [{
+      "matches": [ "https://*.twitch.tv/*" ],
+      "js": [ "script.js" ]
+    }]
+}
