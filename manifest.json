@@ -1,7 +1,7 @@
 {
   "name": "Click to Pause for Twitch",
-  "manifest_version": 2,
-  "version": "1.0.0",
+  "manifest_version": 3,
+  "version": "1.0.1",
   "description": "Click the Twitch video to pause.",
   "author": "Sam Kauffman (SamVK)",
   "icons": {
